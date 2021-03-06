@@ -1,0 +1,117 @@
+/*nav start*/
+
+.a{
+background-image:url("../img/back.jpg");
+background-size:cover;
+}
+
+
+a{
+	text-decoration:none;
+	
+	
+	 
+	
+}
+
+.menubar ul
+{
+
+	
+	list-style:none;
+	display:inline-flex;
+	
+    
+	
+}
+.menubar{
+	background-color:black;
+	text-align:center;
+	}
+.menubar a
+{
+	color:#ffffff;
+	
+	
+	}
+.subclass
+{
+	display:none;
+	
+}
+.subclass ul{
+	margin-left:-35px;
+}
+.menubar li
+{
+	
+	padding:15px;
+	
+}
+.menubar ul li:hover{
+	background-color:red;
+	border-radius:10px;
+
+	}
+.menubar ul li:hover .subclass
+{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:15px;
+	margin-left:-15px;
+	border-radius:10px;
+	padding:10px;
+}
+.menubar ul li:hover .subclass ul
+{
+	display:block;
+}
+.menubar ul li:hover .subclass ul li
+{
+	padding:10px;
+	border-bottom:1px solid red;
+	
+	
+	
+}
+
+	/*navend*/
+	
+.row
+{
+	display:inline-flex;
+	
+	
+	text-align:justify;
+	color:white;
+	
+}
+.col
+{
+	width:350px;
+	height:350px;
+	padding:15px;
+	background-color:rgba(0,0,0,0.4);
+	margin:20px;
+	
+}
+.col p{
+	margin-top:30px;
+}
+h1
+{
+	text-decoration:underline;
+	text-align:center;
+}
+.ft{
+	background-color:black;
+	text-align:center;
+	padding:10px;
+}
+.ft p
+{
+	color:white;
+}
+
+	

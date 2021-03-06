@@ -1,0 +1,10 @@
+<?php
+$link=mysqli_connect("localhost","root","","athulya");
+
+$query="SELECT  id,first_name,last_name,salary FROM Emloyees";
+
+echo $query;
+
+
+
+?>
